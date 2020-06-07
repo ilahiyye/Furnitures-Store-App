@@ -1,0 +1,154 @@
+/*Navbar*/
+
+.navbar-center{
+    position: absolute;
+    width: 70px;
+    height:60px; 
+    left: 50%;
+    transform: translatex(-50%);
+  }
+  
+.view{
+    width: 100%;
+}
+#title{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom:5px ;
+    font-weight: bolder;
+}
+.story{
+    background: rgba(240, 219, 240, 0.897);
+    font-family: serif;
+    border: 1px solid rgba(206, 153, 206, 0.897);
+   
+}
+#text{
+    font-size: 26px;
+    
+}
+/*footer-*/
+#footer{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+  }
+  .sosial a{
+    text-align: right;
+    margin: 1%;
+    
+  }
+  .sosial img{
+    border-radius: 50%;
+  }
+  #link { 
+    color: white;
+    font-weight: bold;
+    margin: 9%;
+  }
+  a > img{
+    width: 40px;
+    height: 40px;
+  }
+
+/* For mobile */
+@media only screen and (max-width:426px) and (min-width: 120px) {
+    
+  /* navbar */
+ .navbar-center{
+   width: 30px;
+   height: 30px; 
+   left: 2px;
+   transform: translatex(0);
+ }
+ #menu > ul > li > a{
+   font-size: 13px;
+ }
+ .site-name{
+   margin-left:7%;
+   font-size: 15px;
+  }
+
+  /* Site Content */
+  #title{
+    font-size: 15px;
+    margin-top: 3px;
+    margin-bottom:3px ;
+    }
+  #text{
+     font-size: 12px;
+    }
+  .view{
+    height: 125px
+    }
+    
+ /* Footer */
+ .footer-copyright{
+   font-size: 12px;
+    display: grid;
+ }
+ .sosial a{
+   text-align: center;
+   margin: 0; 
+ }
+ #link{
+   font-size:14px;
+   font-weight: normal;
+   display: grid;
+   text-align: center;
+ }
+
+ a > img{
+   width: 30px;
+   height: 30px;
+   margin-right: 4px;
+   margin-top: 0;
+
+}
+}
+
+/* For Leptop and notebook */
+@media only screen and (max-width:1024px) and (min-width:426px) {
+
+/*Navbar*/
+.navbar-center{
+ width: 40px;
+ height: 38px; 
+ left: 2px;
+ transform: translatex(0);
+}
+#menu > ul > li > a{
+ font-size: 18px;
+}
+.site-name{
+ margin-left:4%;
+ font-size: 18px;
+}
+
+/* Site Content */
+ #title{
+    font-size: 23px;
+    
+    }
+#text{
+    font-size: 17px;
+    }
+
+/*Footer*/
+.sosial a{
+   text-align: left;
+   margin: 0; 
+ }
+#link{
+ font-size:16px;
+ font-weight: bold;
+ margin: 6px;
+ text-align: left;
+}
+
+a > img{
+ width: 30px;
+ height: 30px;
+}
+}
